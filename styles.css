@@ -1,0 +1,82 @@
+/* html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+} */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: auto;
+  text-align: center;
+  background-color: bisque;
+  color: rgb(30, 58, 41);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 25;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.title {
+  text-align: center;
+}
+
+.paragraph {
+  color: rgb(46, 66, 18);
+  font-style: italic;
+}
+
+.paragraph2 {
+  text-transform: capitalize;
+}
+
+.shop {
+    background-color: rgb(190, 243, 243);  
+}
+
+.shop a:hover {
+    color: blue;
+}
+
+.shop a:active {
+    color: crimson;
+}
+
+        /* .shop a:visited {
+            color: darkgreen;
+        } */
+
+.table td:nth-child(2) {
+    color: darkmagenta;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+}
+
+.form input {
+    box-sizing: border-box;
+    padding: 10px;
+    border: darkred;
+}
